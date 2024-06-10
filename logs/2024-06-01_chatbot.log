@@ -1,0 +1,25 @@
+2024-06-01 08:33:25,220 - Loading faiss with AVX2 support.
+2024-06-01 08:33:25,220 - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-06-01 08:33:25,220 - Loading faiss.
+2024-06-01 08:33:25,329 - Successfully loaded faiss.
+2024-06-01 08:34:04,947 - ------------llm------------
+2024-06-01 08:34:04,948 - User: điều hòa
+2024-06-01 08:34:05,289 - Retrying request to /chat/completions in 0.927521 seconds
+2024-06-01 08:34:06,230 - Retrying request to /chat/completions in 1.832976 seconds
+2024-06-01 08:34:30,138 - Loading faiss with AVX2 support.
+2024-06-01 08:34:30,139 - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-06-01 08:34:30,139 - Loading faiss.
+2024-06-01 08:34:30,301 - Successfully loaded faiss.
+2024-06-01 08:34:35,434 - ------------llm------------
+2024-06-01 08:34:35,434 - User: điều hòa
+2024-06-01 08:34:35,543 - Retrying request to /chat/completions in 0.796504 seconds
+2024-06-01 08:34:36,352 - Retrying request to /chat/completions in 1.665214 seconds
+2024-06-01 08:35:11,375 - ------------llm------------
+2024-06-01 08:35:11,376 - User: sản phẩm điều hòa
+2024-06-01 08:35:11,490 - Retrying request to /chat/completions in 0.761210 seconds
+2024-06-01 08:35:12,267 - Retrying request to /chat/completions in 1.836242 seconds
+2024-06-01 08:36:39,908 - ------------llm------------
+2024-06-01 08:36:39,909 - User: sản phẩm điều hòa
+2024-06-01 08:36:41,651 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

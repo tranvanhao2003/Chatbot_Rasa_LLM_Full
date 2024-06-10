@@ -1,0 +1,1106 @@
+version: "3.1"
+nlu:
+- intent: give_name
+  examples: |
+    - Tôi tên là [Nam](user_name)
+    - Tôi tên là [cún con](user_name)
+    - Tôi tên là [đáng yêu](user_name)
+    - Tôi tên là [đáng yêu Quá](user_name)
+    - Tôi tên là [Hoàng nam](user_name)
+    - Toi ten la [Nam](user_name)
+    - Toi ten la [cún con](user_name)
+    - Toi ten la [đáng yêu](user_name)
+    - Toi ten la [đáng yêu Quá](user_name)
+    - Toi ten la [Hoàng nam](user_name)
+    - Chị tên là [Hoa](user_name)
+    - Chị tên là [Mai Hoa](user_name)
+    - Chị tên là [mai hoa](user_name)
+    - Chị tên là [bé mèo](user_name)
+    - Anh tên là [Long](user_name)
+    - Anh tên là [Hoàng Anh](user_name)
+    - Anh tên là [Quang huy](user_name)
+    - Anh tên là [Quang Huy](user_name)
+    - Anh tên là [xuan long](user_name)
+    - Anh tên là [tran van long](user_name)
+    - Anh ten la [Long](user_name)
+    - Anh ten la [Hoàng Anh](user_name)
+    - Anh ten la [Quang huy](user_name)
+    - Anh ten la [Quang Huy](user_name)
+    - Anh ten la [xuan long](user_name)
+    - Anh ten la [tran van long](user_name)
+    - Tôi là [nam xinh trai](user_name)
+    - Tôi là [cún con](user_name)
+    - Tôi là [đáng yêu](user_name)
+    - Tôi là [Hoàng nam](user_name)
+    - Chị là [Hoa](user_name)
+    - Chị là [Mai Hoa](user_name)
+    - Chị là [Mai Hoa thung](user_name)
+    - Chị là [mai hoa](user_name)
+    - Chị là [bé mèo](user_name)
+    - Anh là [Long](user_name)
+    - Anh là [vũ mai phương](user_name)
+    - Anh là [Hoàng Anh](user_name)
+    - Anh là [Quang huy](user_name)
+    - Anh là [Quang Huy](user_name)
+    - Anh là [xuan long](user_name)
+    - Anh tên là [tran van long](user_name)
+    - Anh tên [Long](user_name)
+    - Anh tên [Hoàng Anh](user_name)
+    - Anh tên [Quang huy](user_name)
+    - Anh tên [Quang Huy](user_name)
+    - Anh tên [xuan long](user_name)
+    - Anh tên [tran van long](user_name)
+    - Anh tên [bé bụng to](user_name)
+    - Anh tên [bé hạt tiêu](user_name)
+    - Anh ten là [tran van long](user_name)
+    - Anh ten [Long](user_name)
+    - Anh ten [Hoàng Anh](user_name)
+    - Anh ten [Quang huy](user_name)
+    - Anh ten [Quang Huy](user_name)
+    - Anh ten [xuan long](user_name)
+    - Anh ten [tran van long](user_name)
+    - Anh ten [bé bụng to](user_name)
+    - Anh ten [bé hạt tiêu](user_name)
+    - Mình tên là [Phúc](user_name)
+    - Mình tên [Phát](user_name)
+    - Em tên [Hà](user_name) nhé
+    - Huy[Nam](user_name)
+    - Gọi mình là [Phụng](user_name) nha
+    - Tôi tên [Hoàng](user_name)
+    - chị tên [Cúc](user_name)
+    - anh tên [Đức](user_name)
+    - [Tuấn](user_name) nhé
+    - [tran van binh](user_name)
+    - [trần văn bình](user_name)
+    - [Lĩnh](user_name)
+    - [Viễn](user_name)
+    - [Duy Anh](user_name)
+    - [Tú](user_name)
+    - [Trần Văn Tâm](user_name)
+    - [Xuân hồng](user_name)
+    - [Kiều Anh](user_name)
+    - [Thành](user_name)
+    - [Đăng](user_name)
+    - [nguyễn tiến đạt](user_name)
+    - [Vy](user_name)
+    - [Loan](user_name)
+    - [Luân](user_name)
+    - [Quang](user_name)
+    - [Bệu bé bỏng](user_name)
+    - [Trọng](user_name)
+    - [Trọng Dũng](user_name)
+    - [trong dung](user_name)
+    - [be bu](user_name)
+    - [An](user_name)
+    - [Kim](user_name)
+    - [Hằng](user_name)
+    - [Cường](user_name)
+    - [Phú](user_name)
+    - [Thiện](user_name)
+    - Anh [Huy](user_name)
+    - Anh [Huy Long](user_name)
+    - Anh [Huy vũ](user_name)
+    - Anh [Quang Long](user_name)
+    - Anh [Trần Xuân Long](user_name)
+    - anh [Long](user_name)
+    - Anh [quang vu](user_name)
+    - Anh [Văn hồng](user_name)
+    - Anh [trần văn hồng](user_name)
+    - Chị [Linh](user_name)
+    - chị [Huyền](user_name)
+    - chị [Huyền Anh](user_name)
+    - chị [Huyền anh](user_name)
+    - chị [tran huyen anh](user_name)
+    - chị [trần Huyền anh](user_name)
+    - chị [trần huyền Anh](user_name)
+    - là [Minh](user_name)
+    - là [David](user_name)
+    - tên [Sung](user_name)
+    - tôi tên là [bun bo](user_name)
+    - tôi tên là [bún bò](user_name)
+    - tôi tên là [Bé Mèo](user_name)
+    - [Nguyễn Hữu Đạt](name)
+    - [Phạm Thị Thu Uyên](user_name)
+    - [Lương Sơn Bạc](user_name)
+    - [Vũ Văn Hùng](user_name)
+    - [Trịnh Hoàng Anh Lai](user_name)
+    - [Vũ Thế Phương](user_name)
+    - [Đoàn Thị Dân](user_name)
+    - [Giang Thanh Hải](user_name)
+    - [Đào Phương Thảo](user_name)
+    - [Hoàng Văn Thái](user_name)
+    - [Lưu Khánh Ly](user_name)
+    - [Chu Thị Ngọc Anh](user_name)
+    - [Phùng Thị Lan Ly](user_name)
+    - [Dương Thị NGọc Anh](user_name)
+    - [Đinh Thị Diệu Linh](user_name)
+    - [Âu Dương Phong](user_name)
+    - [Mai Lương Hoài Phương](user_name)
+    - tên là [Bùi Vân Khánh](user_name)
+    - tên [đặng thúy hiền](user_name)
+    - tên của tôi [Trần Đức Long](user_name)
+    - tên tôi là [Lê Thị Thủy Tiên](user_name)
+    - tên tôi là [Thủy Tiên](user_name)
+    - tên tôi là [thị Thủy Tiên](user_name)
+    - tên tôi là [bé đào xinhh](user_name)
+    - tên tôi là [Lê Thị Thủy Tiên nữ](user_name)
+    - ten toi la [Lê Thị Thủy Tiên](user_name)
+    - ten toi la [Thủy Tiên](user_name)
+    - ten toi la [thị Thủy Tiên](user_name)
+    - ten toi la [bé đào xinhh](user_name)
+    - ten toi la [Lê Thị Thủy Tiên nữ](user_name)
+    - tên chủ thẻ [Hà Huyền Trang](user_name)
+    - chị tên [Đõ Thị Chung](user_name)
+    - chị tên [Kiều Phương Quỳnh](user_name)
+    - tên của anh là [Trần Đức Long](user_name)
+    - tên anh là [Lê Thị Thủy Tiên](user_name)
+    - tên anh là [Thủy Tiên](user_name)
+    - tên anh là [thị Thủy Tiên](user_name)
+    - tên anh là [bé đào xinhh](user_name)
+    - tên anh là [Lê Thị Thủy Tiên nữ](user_name)
+- intent: birthday
+  examples: |
+    - bạn sinh năm nào?
+    - ban sinh năm nao
+    - bạn ra đời năm nào?
+    - bot sinh năm nào
+    - ban sinh nam bao nhieu?
+    - ban ra doi vao nam nao
+    - sinh nam nao
+    - bạn sinh năm bao nhiêu?
+    - bạn a đời khi nào?
+    - sinh năm bao nhiêu?
+    - sinh năm nào?
+- intent: love
+  examples: |
+    - em có người yêu chưa?
+    - mày có người yêu chưa?
+    - em có yêu anh không?
+    - em co nguoi yeu chua
+    - anh yeu em
+    - aye
+    - em co nguoi yeu chua
+    - bạn có người yêu chưa
+    - anh yêu em
+    - anh ghét em
+    - I hate you
+    - I love you
+    - i love you
+- intent: home
+  examples: |
+    - nhà em ở đâu?
+    - nha em o dau
+    - cho anh xin cái địa chỉ
+    - cho anh dia chi nha em
+    - em o cho nao
+    - mày ở đâu?
+    - nhà em chỗ nào?
+    - quê em ở đâu?
+    - ở đâu
+- intent: unclear
+  examples: |
+    - jjjjjjjjj
+    - mày nguu thế
+    - cho tao xin số điện thoại
+    - Sản phẩm có phù hợp với các chuẩn an toàn hoặc chứng nhận nào không?
+    - cho anh xin sđt
+    - xin sđt 
+    - cho xin sđt
+    - suhuhduf]
+    - lakjshjdkhaskdhsj
+    - 12345446db
+    - dfg5df4g4564sf
+    - 123456789
+    - 10000
+    - bố mày là ai
+    - mẹ mày là ai
+    - mày muốn gì
+    - còn không
+    - thêm đi
+    - tiếp tục
+    - ai là chủ tịch nước
+    - mày có giá bao nhiêu
+    - ai la chu tich nuoc
+    - may co gia bao nhieu
+    - co ban hang gia khong
+    - co ho tro them/bot san pham sau khi dat hang thanh cong khong
+    - co cho phep kiem tra san pham khi nhan hang khong
+    - co ho tro doi tra hang khong
+    - co hoan lai tien neu don hang bi huy khong
+    - Lam the nao de lien he voi bo phan ho tro khach hang cua ban
+    - co ho tro gui hang tu nuoc ngoai khong
+    - co hoan lai ma giam gia neu don hang bi huy khong
+    - co huong dan dong goi san pham de gui tra hang khong
+    - co ho tro mua truoc - tra sau khong
+    - co ho tro kiem tra san pham khi nhan hang khong
+    - Ban co bi cam lanh khong
+    - Ban co thich an pizza khong
+    - Ban co tin vao nguoi ngoai hanh tinh khong
+    - Ban thich doc sach khong
+    - Ban biet noi tieng Anh khong
+    - Ban co the bay khong
+    - Ban co bao nhieu tuoi roi
+    - Ban thich ngu khong
+    - kể chuyện cho tôi
+    - có bán hàng giả không?
+    - có hỗ trợ thêm/bớt sản phẩm sau khi đặt hàng thành công không?
+    - có cho phép kiểm tra sản phẩm khi nhận hàng không?
+    - có hỗ trợ đổi trả hàng không?
+    - có hoàn lại tiền nếu đơn hàng bị hủy không?
+    - Làm thế nào để liên hệ với bộ phận hỗ trợ khách hàng của bạn?
+    - có hỗ trợ gửi hàng từ nước ngoài không?
+    - có hoàn lại mã giảm giá nếu đơn hàng bị hủy không?
+    - có hướng dẫn đóng gói sản phẩm để gửi trả hàng không?
+    - có hỗ trợ mua trước - trả sau không?
+    - có hỗ trợ kiểm tra sản phẩm khi nhận hàng không?
+    - Bạn có bị cảm lạnh không?
+    - Bạn có thích ăn pizza không?
+    - Bạn có tin vào người ngoài hành tinh không?
+    - Bạn thích đọc sách không?
+    - Bạn biết nói tiếng Anh không?
+    - Bạn có thể bay không?
+    - Bạn có bao nhiêu tuổi rồi?
+    - Bạn thích ngủ không?
+    - bạn co biet bay khong
+    - Bạn đã từng yêu chưa?
+    - Bạn có đang xem phim gì không?
+    - Hôm nay là thứ mấy?
+    - Dịch câu này sang tiếng Anh
+    - Tìm cho tôi một nhà hàng Ý gần đây.
+    - Ý nghĩa của cuộc sống là gì?
+    - Ai là người giàu nhất thế giới?
+    - Ai là người đẹp nhất?
+    - Bạn có thể nói cho tôi về cuộc sống của bạn không?
+    - Bạn có thể kể một câu chuyện cho tôi nghe không?
+    - Bạn thích ăn gì?
+    - Bạn có thể làm thơ cho tôi không?
+    - Bạn có biết tôi đang ở đâu không?
+    - Bạn có thể hát một bài hát cho tôi nghe không?
+    - Bạn có thể tán tỉnh tôi không?
+    - Bạn nghĩ gì về tình yêu?
+    - Bạn thích đi du lịch không?
+    - Bạn đã từng phải làm việc quá giờ chưa?
+    - Bạn có thể nói cho tôi về thời tiết hôm nay không?
+    - Bạn có thể kể cho tôi một câu chuyện ngắn không?
+    - Bạn có thể tư vấn cho tôi một bộ phim hay không?
+    - Bạn có thể đoán tuổi của tôi không?
+    - Bạn có thể xác nhận lại thông tin đơn hàng của tôi không?
+    - Bạn có thể nói cho tôi một câu đố không?
+    - Tôi muốn thay đổi địa chỉ giao hàng, làm thế nào để làm điều đó?
+    - có biết chơi game không
+    - các câu hỏi vô tri người dùng hay hỏi bạn
+    - cách để có nhiều tiền
+    - cách mua hàng không mất tiền
+    - Thông tin cá nhân của thành viên được bảo mật như thế nào?
+    - Giải thích cho tôi về thuyết tương đối.
+    - Tương lai sẽ như thế nào?
+    - x nc a
+    - nv vdi m
+    - ahdhaudsu ạid
+    - hi hi ha ha hu hu
+    - h hsud jji
+    - jsjd jisjd j
+    - hiushdu hsdhsjhduhdiusDSNUDSH
+    - UHSIUDH josjdos
+    - HHHHH hhijiotfyf HIAHU
+    - Bv 
+    - haus
+    - clm
+    - a
+    - A
+    - 1
+    - 2
+    - 3
+    - 4
+    - y
+    - UI
+    - mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    - dm
+    - dmm
+    - vcl
+    - chính sách 2
+    - cc
+    - Bvv
+    - Kvsuc
+    - ggb
+    - hbs
+    - nbbj'
+    - bbbul'''
+    - bc'
+    - rtr
+    - ygyg 
+    - dc
+    - gggb
+    - glyu"
+    - guhgbyfy"
+    - hu
+    - H jj
+    - k KK nnnm
+    - dfg
+    - hhhk 
+    - sócf
+    - hạdfs
+    - 5b
+    - 12afffffffffff
+    - sdmk dsmf
+    - fd f fs
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - khong
+    - không đâu
+    - đéo
+    - không đồng ý
+    - không thích
+    - ko
+    - cc
+    - không nhé
+    - không bao giờ
+    - tôi không nghĩ vậy
+    - không đời nào
+    - hoàn toàn không
+    - không
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Xin chào
+    - Bạn ơi cho mình hỏi
+    - em ơi, cho anh hỏi
+    - em ơi, cho chị hỏi
+    - xin chào
+    - Rất vui được gặp bạn!
+    - xin chào !
+    - xinn chào
+    - có ai ko
+    - có ai ở đây không
+    - is there anyone
+    - rất vui được làm quen với bạn
+    - hân hạnh được gặp bạn
+    - anyone here
+    - chào
+    - có ai không
+    - rát vui khi được gặp bạn
+    - hoan hỉ khi được làm quen với bạn
+    - alo
+    - alo alo
+    - cốc cốc
+    - chào em
+    - cứu với
+    - giúp tôi
+    - giúp với
+    - cứu
+    - xin chao
+    - 2
+    - helo
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - chào nhé
+    - tạm biệt
+    - chào tạm biệt
+    - bai bai
+    - bai
+    - bái bai
+    - bb
+    - nói chuyện sau nhé
+    - tạm bịt
+    - bai bot
+    - gút bai
+    - good bye
+    - baibai
+    - pp
+- intent: thanks
+  examples: |
+    - cam on em
+    - cảm ơn em nhá
+    - thanks em nha
+    - cảm ơn nha
+    - good job
+    - thank you
+    - cảm ơn bot nha
+    - thanks bot
+    - cảm ơn
+    - thank you so much
+    - great! Thanks
+    - Cảm ơn em
+    - tốt quá
+    - bot làm rất tốt
+    - tốt thật
+    - tuyệt vời
+    - rất nhanh
+    - giỏi quá
+    - bot thông minh đấy
+    - hay phết nhỉ
+    - tốt đấy
+    - tôi rất hài lòng
+    - chatbot mạnh dữ
+    - thông minh quá ta
+    - giỏi
+    - xong rồi cảm ơn
+    - cảm ơn em
+- intent: ask_name
+  examples: |
+    - bạn là ai
+    - bạn là ai?
+    - mày là đứa nào
+    - bạn tên là gì?
+    - tên gì
+    - ban ten gi?
+    - mày ten gì
+    - mày là ai?
+    - ban ten la gi?
+    - bạn tên gì
+    - tên gì
+    - chị tên gì
+    - anh tên gì
+    - tên của bạn là gì
+    - tên của chị là gì
+    - tên của anh là gì
+    - cho mình hỏi tên nhé
+    - mình muốn biết tên bạn
+    - mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+    - để tiện xưng hộ thì tên bạn là gì
+    - cho em xin tên của anh ạ
+    - cho em xin tên của chị ạ
+    - được biết tên bạn thì tốt nhỉ
+    - vui lòng cho mình biết tên nhé
+    - ban la ai
+    - ban la ai
+    - may la dua nao
+    - Cho anh/chị hỏi quý danh?
+    - Xin lỗi, cho tôi hỏi tên bạn là gì?
+    - ban ten la gi
+    - ten gi
+    - ban ten gi
+    - may ten gi
+    - may la ai
+    - ban ten la gi
+    - ban ten gi
+    - ten gi
+    - chi ten gi
+    - anh ten gi
+    - ten cua ban la gi
+    - ten cua chi la gi
+    - ten cua anh la gi
+    - cho minh hoi ten nhe
+    - minh muon biet ten ban
+    - minh muon tien xung ho hon cho minh biet ten nhe
+    - de tien xung ho thi ten ban la gi
+    - cho em xin ten cua anh a
+    - cho em xin ten cua chi a
+    - duoc biet ten ban thi tot nhi
+    - vui long cho minh biet ten nhe
+- intent: ask_feature_bot
+  examples: |
+    - bot biết làm gì
+    - mày biết làm gì
+    - bot biết gì
+    - bạn biêt gì
+    - bot có gì
+    - bot làm được gì
+    - bạn làm được gì
+    - bạn có tính năng gì
+    - bot có những tính năng gì
+    - tính năng nổi bật của bạn
+    - bot co tinh nang gi
+    - bot biết gì
+    - VCC có những tính năng gì
+    - VCC có tính năng gì
+    - tính năng của VCC
+    - giúp gì
+    - giúp được gì
+    - ban co the lam gi nao
+    - em co the giup gi cho toi
+    - ban biet lam gi
+    - bạn có thể làm được những gì
+    - bạn làm được gì
+    - may duoc viec khong
+    - bot co gi
+    - bot lam duoc gi
+    - ban lam duoc gi
+    - bot có thẻ làm gì
+    - bạn có thẻ làm gì
+    - bot biet gi
+    - giup gi
+    - giup duoc gi
+- intent: ask_service_name
+  examples: |
+    - may co dich vu gi
+    - may co nhung dich vu nao
+    - cho chi xem dich vu ben em
+    - cho xem dich vu
+    - có những dịch vụ gì nhỉ
+    - [Chị](cust_sex) muốn xem danh sách dịch vụ
+    - [Anh](cust_sex) muốn xem danh sách dịch vụ
+    - [Em](cust_sex) muốn xem danh sách dịch vụ
+    - mình muốn xem danh sách dịch vụ
+    - tôi muốn xem danh sách dịch vụ
+    - [chú](cust_sex) muốn xem danh sách dịch vụ
+    - [bác](cust_sex) muốn xem danh sách dịch vụ
+    - [cô](cust_sex) muốn xem danh sách dịch vụ
+    - cho [Chị](cust_sex) xem danh sách dịch vụ
+    - cho [Anh](cust_sex) xem danh sách dịch vụ
+    - cho [Em](cust_sex) xem danh sách dịch vụ
+    - cho [chú](cust_sex) xem danh sách dịch vụ
+    - cho [bác](cust_sex) xem danh sách dịch vụ
+    - cho [cô](cust_sex) xem danh sách dịch vụ
+    - có những dịch vụ gì
+    - cho tôi xem dịch vụ
+    - hỏi dịch vụ
+    - bạn có những dịch vụ nào?
+    - co dich vu nao
+    - Bên em có những dịch vụ gì
+    - dich vu
+    - hoi dich vu
+    - tôi muốn hỏi dịch vụ
+    - xem dịch vụ
+    - bạn có thể làm gì nào
+    - em có thể giúp gì cho tôi
+    - bạn biết làm gì
+    - mày được việc không
+    - [chị](cust_sex) muốn xem dịch vụ bên em
+    - có mấy dịch vụ nhỉ?
+    - cho toi xem dich vu
+    - hoi dich vu
+    - ban co nhung dich vu nao
+    - co dich vu nao
+    - Ben em co nhung dich vu gi
+    - dich vu
+    - hoi dich vu
+    - toi muon hoi dich vu
+    - xem dich vu
+    - chi muon xem dich vu ben em
+    - co may dich vu nhi
+- intent: search_product
+  examples: |
+    - Tôi muốn hỏi số lượng sản phẩm điều hòa?
+    - bạn có thể tư vấn cho tôi máy giặt không
+    - Có những tính năng đặc biệt nào của điều hòa mà tôi nên quan tâm?
+    - có tính năng nào hay của robot hút bụi mà tôi nên quan tâm
+    - tính năng nổi bật của bàn là
+    - tính năng đặt biệt của điều hòa
+    - tính năng nào hay của máy cạo râu
+    - bình đun nước làm bằng chất liệu gì
+    - Bạn có thể cho biết giá của sản phẩm điều hòa không?
+    - Xin hỏi sản phẩm lò vi sóng có giá là bao nhiêu vậy?
+    - Xin thông tin mô tả về đèn năng lượng mặt trời?
+    - Bình nước nóng có dung tích là bao nhiêu?
+    - robot hút bụi có những loại nào
+    - Bạn có thể cho tôi biết giá và số lượng sản phẩm A được không?
+    - Thông số mô tả của sản phẩm máy hút bụi?
+    - Cho tôi xem sản phẩm bình nóng lạnh?
+    - Tôi cần xem các lọai thiết bị camera?
+    - Thông tin về sản phẩm máy lọc nước?
+    - Có thể cho tôi xem giá của máy giặt không?
+    - Đưa ra cho tôi một vài loại máy sấy tóc?
+    - Tôi quan tâm tới sản phẩm điều hòa và Thiết bị Wifi
+    - Tôi quan tâm tới sản phẩm điều hòa, máy giặt
+    - Tôi quan tâm tới sản phẩm điều hòa giá trên 10 triệu
+    - số lượng sản phẩm đèn năng lượng mặt trời
+    - Sản phẩm bán chạy nhất là sản phẩm nào?
+    - Bếp từ nào có công suất lớn nhất
+    - so sánh điều hòa daikin và điều hòa LG tầm giá 10tr
+    - máy giặt phổ biến nhất hiện nay là loại nào?
+    - bình đun nước có công suất trên 1000w
+    - Máy Giặt Aqua 9 Kg AQW-F91GT.S là lồng ngang hay lồng đứng
+    - tôi muốn mua máy giặt lồng ngang
+    - Máy lọc nước Karofi KAQ-U06V và Máy lọc nước Empire Nóng Nguội - 10 cấp lọc EPML038 cái nào tốt hơn?
+    - Quạt sưởi không khí AIO Smart bảo hành trong bao lâu?
+    - Quạt sưởi không khí AIO Smart bảo hành trong bao lâu?
+    - Loại máy giặt nào là phổ biến nhất hiện nay?
+    - Thời gian sử dụng trung bình của Ghế massage daikiosan là bao lâu?
+    - Tôi muốn mua sản phẩm máy giặt có giá khoảng 10 triệu
+    - Tôi muốn mua sản phẩm máy giặt có giá từ 5 triệu đến 8 triệu
+    - Tôi muốn mua sản phẩm máy giặt có giá dưới 10 triệu 500 nghìn
+    - Toi muon hoi so luong san pham dieu hoa
+    - Ban co the cho biet gia cua san pham dieu hoa khong
+    - Xin hoi san pham lo vi song co gia la bao nhieu vay
+    - Xin thong tin mo ta ve den nang luong mat troi
+    - Binh nuoc nong co dung tich la bao nhieu
+    - Ban co the cho toi biet gia va so luong san pham A duoc khong
+    - Thong so mo ta cua san pham may hut bui
+    - Cho toi xem san pham binh nong lanh
+    - Toi can xem cac loai thiet bi camera
+    - Thong tin ve san pham may loc nuoc
+    - Co the cho toi xem gia cua may giat khong
+    - Dua ra cho toi mot vai loai may say toc
+    - Toi quan tam toi san pham dieu hoa va Thiet bi Wifi
+    - Toi quan tam toi san pham dieu hoa, may giat
+    - Toi quan tam toi san pham dieu hoa gia tren 10 trieu
+    - so luong san pham den nang luong mat troi
+    - San pham ban chay nhat la san pham nao
+    - Bep tu nao co cong suat lon nhat
+    - so sanh dieu hoa daikin va dieu hoa LG tam gia 10 trieu
+    - may giat pho bien nhat hien nay la loai nao
+    - binh dun nuoc co cong suat tren 1000w
+    - May Giặt Aqua 9 Kg AQW-F91GT.S la long ngang hay long dung
+    - toi muon mua may giat long ngang
+    - May loc nuoc Karofi KAQ-U06V va May loc nuoc Empire Nong Nguoi - 10 cap loc EPML038 cai nao tot hon
+    - Quat suoi khong khi AIO Smart bao hanh trong bao lau
+    - Quat suoi khong khi AIO Smart bao hanh trong bao lau
+    - Loai may giat nao la pho bien nhat hien nay
+    - Thoi gian su dung trung binh cua Ghe massage daikiosan la bao lau
+    - Toi muon mua san pham may giat co gia khoang 10 trieu
+    - Toi muon mua san pham may giat co gia tu 5 trieu den 8 trieu
+    - Toi muon mua san pham may giat co gia duoi 10 trieu 500 nghin
+    - có bán điều hòa không
+    - bán tivi không
+    - bên bạn có bán máy lọc nước không
+    - Bàn chải điện
+    - Bàn là
+    - Bếp từ
+    - Bình đun nước
+    - Bình nóng lạnh
+    - Đèn năng lượng mặt trời
+    - Điều hòa
+    - Ghế massage đaikiosan
+    - Lò vi sóng
+    - Máy cạo rau
+    - Máy đánh trứng
+    - Máy ép
+    - Máy giặt
+    - Máy hút bụi
+    - Máy lọc không khí
+    - Máy lọc nước
+    - Máy sấy tóc
+    - Máy xay
+    - Nồi áp suất
+    - Nồi chiên không dầu
+    - Nồi cơm điện
+    - Robot hút bụi
+    - Thiết bị Webcam
+    - Thiết bị Wifi
+    - Thiết bị camera
+    - Lò nướng
+    - Cho tôi sản phẩm Bàn chải điện
+    - Cho tôi sản phẩm Bàn là
+    - Cho tôi sản phẩm Bếp từ
+    - Cho tôi sản phẩm Bình đun nước
+    - Cho tôi sản phẩm Bình nóng lạnh
+    - Cho tôi sản phẩm Đèn năng lượng mặt trời
+    - Cho tôi sản phẩm Điều hòa
+    - Cho tôi sản phẩm Ghế massage đaikiosan
+    - Cho tôi sản phẩm Lò vi sóng
+    - Cho tôi sản phẩm Máy cạo rau
+    - Cho tôi sản phẩm Máy đánh trứng
+    - Cho tôi sản phẩm Máy ép
+    - Cho tôi sản phẩm Máy giặt
+    - Cho tôi sản phẩm Máy hút bụi
+    - Cho tôi sản phẩm Máy lọc không khí
+    - Cho tôi sản phẩm Máy lọc nước
+    - Cho tôi sản phẩm Máy sấy tóc
+    - Cho tôi sản phẩm Máy xay
+    - Cho tôi sản phẩm Nồi áp suất
+    - Cho tôi sản phẩm Nồi chiên không dầu
+    - Cho tôi sản phẩm Nồi cơm điện
+    - Cho tôi sản phẩm Robot hút bụi
+    - Cho tôi sản phẩm Thiết bị Webcam
+    - Cho tôi sản phẩm Thiết bị Wifi
+    - Cho tôi sản phẩm Thiết bị camera
+    - Cho tôi sản phẩm Lò nướng
+    - điều hòa có gì khác so với bình nóng lạnh
+    - các sản phẩm giá rẻ
+    - có nhũng loại Bàn chải điện nào?
+    - có nhũng loại Bàn là nào?
+    - có nhũng loại Bếp từ nào?
+    - có nhũng loại Bình đun nước nào?
+    - có nhũng loại Bình nóng lạnh nào?
+    - có nhũng loại Đèn năng lượng mặt trời nào?
+    - có nhũng loại Điều hòa nào? 
+    - có nhũng loại Ghế massage đaikiosan nào?
+    - có nhũng loại Lò vi sóng nào?
+    - có nhũng loại Máy cạo rau nào? 
+    - có nhũng loại Máy đánh trứng nào? 
+    - có nhũng loại Máy ép nào?
+    - có nhũng loại Máy giặt nào?
+    - có nhũng loại Máy hút bụi nào?
+    - có nhũng loại Máy lọc không khí nào?
+    - có nhũng loại Máy lọc nước nào?
+    - có nhũng loại Máy sấy tóc nào?
+    - có nhũng loại Máy xay nào?
+    - có nhũng loại Nồi áp suất nào? 
+    - có nhũng loại Nồi chiên không dầu nào?
+    - có nhũng loại Nồi cơm điện nào?
+    - có nhũng loại Robot hút bụi nào?
+    - có nhũng loại Thiết bị Webcam nào?
+    - có nhũng loại Thiết bị Wifi nào?
+    - có nhũng loại Thiết bị camera nào?
+    - có nhũng loại Lò nướng nào?
+    - Tư vấn cho tôi sản phẩm Bàn chải điện không?
+    - Tư vấn cho tôi sản phẩm Bàn là không?
+    - Tư vấn cho tôi sản phẩm Bếp từ không?
+    - Tư vấn cho tôi sản phẩm Bình đun nước không?
+    - Tư vấn cho tôi sản phẩm Bình nóng lạnh không?
+    - Tư vấn cho tôi sản phẩm Đèn năng lượng mặt trời không?
+    - Tư vấn cho tôi sản phẩm Điều hòa không?
+    - Tư vấn cho tôi sản phẩm Ghế massage đaikiosan không?
+    - Tư vấn cho tôi sản phẩm Lò vi sóng không?
+    - Tư vấn cho tôi sản phẩm Máy cạo rau không?
+    - Tư vấn cho tôi sản phẩm Máy đánh trứng không?
+    - Tư vấn cho tôi sản phẩm Máy ép không?
+    - Tư vấn cho tôi sản phẩm Máy giặt không?
+    - Tư vấn cho tôi sản phẩm Máy hút bụi không?
+    - Tư vấn cho tôi sản phẩm Máy lọc không khí không?
+    - Tư vấn cho tôi sản phẩm Máy lọc nước không?
+    - Tư vấn cho tôi sản phẩm Máy sấy tóc không?
+    - Tư vấn cho tôi sản phẩm Máy xay không?
+    - Tư vấn cho tôi sản phẩm Nồi áp suất không?
+    - Tư vấn cho tôi sản phẩm Nồi chiên không dầu không?
+    - Tư vấn cho tôi sản phẩm Nồi cơm điện không?
+    - Tư vấn cho tôi sản phẩm Robot hút bụi không?
+    - Tư vấn cho tôi sản phẩm Thiết bị Webcam không?
+    - Tư vấn cho tôi sản phẩm Thiết bị Wifi không?
+    - Tư vấn cho tôi sản phẩm Thiết bị camera không?
+    - Tư vấn cho tôi sản phẩm Lò nướng không?
+- intent: begin_chatgpt
+  examples: |
+    - Ai là người giàu nhất thế giới?
+    - Ai là người đẹp nhất?
+    - 1+1=?
+- intent: order_produce
+  examples: |
+    - làm sao để đặt hàng
+    - tôi muốn mua hàng thì phải làm gì
+    - cách thức mua hàng
+    - làm sao để mua hàng
+    - các bước để mua hàng là gì
+    - hướng dẫn tôi mua hàng
+    - đặt hàng kiểu gì
+    - mua hàng kiểu gì
+    - lam sao de dat hang
+    - toi muon mua hang thi phai lam gi
+    - cach thuc mua hang
+    - lam sao de mua hang
+    - cac buoc de mua hang la gi
+    - huong dan toi mua hang
+    - dat hang kieu gi
+    - mua hang kieu gi
+- intent: list_product
+  examples: |
+    - Sản phẩm này có sẵn hàng không?
+    - Có sản phẩm này không?
+    - Danh mục sản phẩm của VCC bán?
+    - Bạn nên gợi ý sản phẩm nào cho tôi dựa trên nhu cầu của tôi?
+    - Các sản phẩm mà VCC bán?
+    - Danh mục sản phẩm của VCC có những gì?
+    - Các loại danh mục sản phẩm mà VCC bán?
+    - VCC bán những mặt hàng nào?
+    - Sản phẩm của VCC gồm những gì?
+    - Mặt hàng nào VCC đang kinh doanh?
+    - có những sản phẩm nào
+    - co nhung san pham nao
+    - cho xem sản phẩm
+    - cho anh xem sản phẩm
+    - danh sách sản phẩm
+    - bên bạn có những sản phẩm nào
+    - bán những cái gì
+    - San pham nay co san hang khong?
+    - Co san pham nay khong?
+    - Danh muc san pham cua VCC ban?
+    - Ban nen goi y san pham nao cho toi dua tren nhu cau cua toi?
+    - Cac san pham ma VCC ban?
+    - Danh muc san pham cua VCC co nhung gi?
+    - Cac loai danh muc san pham ma VCC ban?
+    - VCC ban nhung mat hang nao?
+    - San pham cua VCC gom nhung gi?
+    - Mat hang nao VCC dang kinh doanh?
+    - co nhung san pham nao
+    - co nhung san pham nao
+    - cho xem san pham
+    - cho anh xem san pham
+    - danh sach san pham
+    - ben ban co nhung san pham nao
+    - ban nhung cai gi
+    - có những mặt hàng nào
+    - có thể cho tôi xem tất cả san rphaamr bên bạn không
+    - show cho tôi tát cả sản phẩm
+    - cho xem tất cả sản phẩm đang bán 
+- intent: evaluate_product
+  examples: |
+    - Sản phẩm bên bạn không tốt
+    - Sản phẩm bị hỏng à
+    - Sản phẩm nhìn xấu thế
+    - Sản phẩm không ra gì
+    - Sản phẩm phèn thế
+    - Hàng lỗi à
+    - Sản phẩm đểu quá
+    - hàng fake à
+    - nhìn sản phẩm fake quá
+    - sản phẩm kém chất lượng thế
+    - sản phẩm bị hỏng
+    - sản phẩm lỗi
+    - mặt hàng kém chất lượng
+    - san phẩm khong đảm bảo
+    - sản phẩm không giống hình ảnh
+    - sản phẩm không giống quảng cáo
+    - sản phẩm không đúng với mô tả
+    - kém chất lượng
+    - sản phảm không đúng yêu cầu
+    - sản phẩm nhanh hỏng
+    - sản phẩm dễ hỏng
+    - sản phẫm lõi
+    - San pham ben ban khong tot
+    - VCC bán sản phẩm kém chất lượng
+    - San pham bi hong a
+    - San pham nhin xau the
+    - San pham khong ra gi
+    - San pham phen the
+    - Hang loi a
+    - San pham deu qua
+    - hang fake a
+    - nhin san pham fake qua
+    - san pham kem chat luong the
+    - san pham bi hong
+    - san pham loi
+    - mat hang kem chat luong
+    - san pham khong dam bao
+    - san pham khong giong hinh anh
+    - san pham khong giong quang cao
+    - san pham khong dung voi mo ta
+    - kem chat luong
+    - san pham khong dung yeu cau
+    - san pham nhanh hong
+    - san pham de hong
+    - san pham loi
+- intent: buy_dont_money
+  examples: |
+    - mua san phẩm không cần trả tiền được không
+    - tôi mua sản phẩm mà không trả tiền được không
+    - mua sản phẩm nhưng không thanh toán được không
+    - không thanh toán khi mua sản phẩm
+    - không trả tiền được không
+    - không trả tiền
+    - sản phẩm không cần trả tiền đâu nhỉ?
+    - mua san pham khong can tra tien duoc khong
+    - toi mua san pham ma khong tra tien duoc khong
+    - mua san pham nhung khong thanh toan duoc khong
+    - khong thanh toan khi mua san pham
+    - khong tra tien duoc khong
+    - khong tra tien
+    - san pham khong can tra tien dau nhi
+- intent: warranty_policy
+  examples: |
+    - [chính sách bảo hành](produce_name_policy) là gì 
+    - có những [chính sách](produce_name_policy) nào
+    - [chính sách](produce_name_policy) bên m là gì
+    - [chinh sach](produce_name_policy) la gi
+    - có bao nhiêu [chính sách](produce_name_policy)
+    - bên bạn có những [chính sách bảo hành](produce_name_policy) nào?
+    - có những [chính sách bảo hành](produce_name_policy) nào?
+    - [chính sách bảo hành](produce_name_policy)
+    - [bảo hành](produce_name_policy)
+    - có [bảo hành](produce_name_policy) không
+    - cho xem [chính sách bảo hành](produce_name_policy)
+    - anh muốn xem [chính sách bảo hành](produce_name_policy)
+    - tôi cần [chính sách bảo hành](produce_name_policy)
+    - [chính sách bảo hành](produce_name_policy) bên bạn 
+    - sản phẩm bên bạn có [chính sách bảo hành](produce_name_policy) không
+    - [Chính sách bảo hành](produce_name_policy) bên bạn là gì
+    - Xin vui lòng cho biết [chính sách bảo hành](produce_name_policy) của bạn áp dụng cho sản phẩm này?
+    - Thời hạn [bảo hành](produce_name_policy) của sản phẩm này là bao lâu?
+    - Liệu sản phẩm có được [bảo hành](produce_name_policy) miễn phí sửa chữa hay thay thế trong trường hợp lỗi từ nhà sản xuất?
+    - Tôi cần biết điều kiện để được [bảo hành](produce_name_policy) sản phẩm này.
+    - [Chính sách bảo hành](produce_name_policy) của bạn có bao gồm hỗ trợ kỹ thuật không?
+    - Tôi muốn yêu cầu [bảo hành](produce_name_policy) sản phẩm, làm thế nào để tiến hành thủ tục?
+    - Trong trường hợp sản phẩm cần [bảo hành](produce_name_policy) sửa chữa, tôi có phải chịu các chi phí vận chuyển không?
+    - Nếu sản phẩm không thể sửa chữa, liệu tôi sẽ được đổi sản phẩm mới theo [chính sách bảo hành](produce_name_policy)?
+    - [Chính sách bảo hành](produce_name_policy) của bạn có điều khoản nào đặc biệt mà tôi cần lưu ý?
+    - Tôi có thể gia hạn thời gian [bảo hành](produce_name_policy) cho sản phẩm này không? Nếu có, thủ tục như thế nào?
+    - ben ban co nhung chinh sach [bao hanh](produce_name_policy) nao
+    - co nhung chinh sach [bao hanh](produce_name_policy) nao
+    - [chinh sach bao hanh](produce_name_policy)
+    - [bao hanh](produce_name_policy)
+    - co [bao hanh](produce_name_policy) khong
+    - cho xem [chinh sach bao hanh](produce_name_policy)
+    - anh muon xem [chinh sach bao hanh](produce_name_policy)
+    - toi can [chinh sach bao hanh](produce_name_policy)
+    - [chinh sach bao hanh](produce_name_policy)
+    - san pham ben ban [co chinh sach bao hanh](produce_name_policy) khong
+    - [chinh sach bao hanh](produce_name_policy) ben ban la gi
+    - Xin vui long cho biet [chinh sach bao hanh](produce_name_policy) cua ban ap dung cho san pham nay
+    - Thoi han [bao hanh](produce_name_policy) cua san pham nay la bao lau
+    - Lieu san pham co duoc [bao hanh](produce_name_policy) mien phi sua chua hay thay the trong truong hop loi tu nha san xuat
+    - Toi can biet dieu kien de duoc [bao hanh](produce_name_policy) san pham nay
+    - [Chinh sach bao hanh](produce_name_policy) cua ban co bao gom ho tro ky thuat khong
+    - Toi muon yeu cau [bao hanh](produce_name_policy) san pham, lam the nao de tien hanh thu tuc
+    - Trong truong hop san pham can [bao hanh](produce_name_policy) sua chua, toi co phai chiu cac chi phi van chuyen khong
+    - Neu san pham khong the sua chua, lieu toi se duoc doi san pham moi theo [chinh sach bao hanh](produce_name_policy)
+    - [Chinh sach bao hanh](produce_name_policy) cua ban co dieu khoan nao dac biet ma toi can luu y
+    - Toi co the gia han thoi gian [bao hanh](produce_name_policy) cho san pham nay khong Neu co, thu tuc nhu the nao
+    - điều hòa có [bảo hành](produce_name_policy) không?
+    - bếp từ có [bảo hành](produce_name_policy) không?
+    - máy lọc nước có [bảo hành](produce_name_policy) không?
+    - bàn chải điện có [bảo hành](produce_name_policy) không?
+    - bếp từ có [bảo hành](produce_name_policy) không?
+    - bình đun nước có [bảo hành](produce_name_policy) không?
+    - bình nóng lạnh có [bảo hành](produce_name_policy) không?
+    - đen năng lượng mặt trời có [bảo hành](produce_name_policy) không?
+    - ghế massage daikiosan có [bảo hành](produce_name_policy) không?
+    - lò vi sóng có [bảo hành](produce_name_policy) không?
+    - máy cạo râu có [bảo hành](produce_name_policy) không?
+    - máy đánh trứng có [bảo hành](produce_name_policy) không?
+    - máy ép có [bảo hành](produce_name_policy) không?
+    - máy giặt có [bảo hành](produce_name_policy) không?
+    - máy hút bụi nước có [bảo hành](produce_name_policy) không?
+    - máy lọc không khí có [bảo hành](produce_name_policy) không?
+    - máy sấy tóc có [bảo hành](produce_name_policy) không?
+    - máy xay có [bảo hành](produce_name_policy) không?
+    - nồi áp suất có [bảo hành](produce_name_policy) không?
+    - nòi chiên không dầu có [bảo hành](produce_name_policy) không?
+    - nồi cơm điện có [bảo hành](produce_name_policy) không?
+    - robot hút bụi có [bảo hành](produce_name_policy) không?
+    - thiết bị camera có [bảo hành](produce_name_policy) không?
+    - thiết bị webcam có [bảo hành](produce_name_policy) không?
+    - thiết bị wifi có [bảo hành](produce_name_policy) không?
+    - lò nướng có [bảo hành](produce_name_policy) không?
+    - bỉm có [bảo hành](produce_name_policy) không?
+    - ghế masage có [bảo hành](produce_name_policy) không
+    - bánh có [bảo hành](produce_name_policy) không?
+    - dép lê có [bảo hành](produce_name_policy) không?
+    - cốc có [bảo hành](produce_name_policy) không?
+    - xe máy có [bảo hành](produce_name_policy) không?
+    - người có [bảo hành](produce_name_policy) không?
+    - điện thoại có [bảo hành](produce_name_policy) không?
+    - máy tính xách tay có [bảo hành](produce_name_policy) không?
+    - máy tính cầm tay không dây có [bảo hành](produce_name_policy) không?
+    - Sản phẩm điều hòa bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm bếp từ bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy lọc nước bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm bàn chải điện bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm bếp từ bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm bình đun nước bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm bình nóng lạnh bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm đen năng lượng mặt trời bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm ghế massage daikiosan bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm lò vi sóng bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy cạo râu bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy đánh trứng bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy ép bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy giặt bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy hút bụi nước bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy lọc không khí bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy sấy tóc bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    - Sản phẩm máy xay bên bạn có [chính sách bảo hành](produce_name_policy) không?
+- intent: promotion
+  examples: |
+    - có chương trình khuyễn mãi nào đang diễn ra không
+    - Bạn có sản phẩm nào giảm giá không?
+    - có sản phẩm nào giảm giá không
+    - sản phẩm giảm giá
+    - sản phẩm này có giảm giá không
+    - Bạn có chương trình giảm giá cho các sản phẩm đã qua sử dụng không?
+    - Có chương trình khuyến mãi nào đang diễn ra hiện nay không?
+    - Có giá ưu đãi cho khách hàng thường xuyên không?
+    - Có bất kỳ chiết khấu nào cho mua sỉ không?
+    - Có chương trình thẻ thành viên để nhận ưu đãi giá không?
+    - có chương trình khuyến mãi nào không
+    - chương trình khuyến mãi
+    - Thành viên được hưởng những ưu đãi gì?
+    - Thành viên có được giảm giá trực tiếp khi mua hàng không?
+    - tôi muốn xem chương trình khuyến mãi
+    - hiện nay đang có chương trình khuyến mãi nào
+    - Có chương trình khuyến mãi dành riêng cho thành viên không?
+    - khuyễn mãi
+    - co chuong trinh khuyen mai nao dang dien ra khong
+    - Ban co san pham nao giam gia khong
+    - co san pham nao giam gia khong
+    - san pham giam gia
+    - san pham nay co giam gia khong
+    - Ban co chuong trinh giam gia cho cac san pham da qua su dung khong
+    - Co chuong trinh khuyen mai nao dang dien ra hien nay khong
+    - Co gia uu dai cho khach hang thuong xuyen khong
+    - Co bat ky chiet khau nao cho mua si khong
+    - Co chuong trinh the thanh vien de nhan uu dai gia khong
+    - co chuong trinh khuyen mai nao khong
+    - chuong trinh khuyen mai
+    - Thanh vien duoc huong nhung uu dai gi
+    - Thanh vien co duoc giam gia truc tiep khi mua hang khong
+    - toi muon xem chuong trinh khuyen mai
+    - hien nay dang co chuong trinh khuyen mai nao
+    - Co chuong trinh khuyen mai danh rieng cho thanh vien khong
+    - khuyen mai
+- intent: pay_produce
+  examples: |
+    - bạn hỗ trợ thanh toán bằng những phương thức nào
+    - thanh toán bằng những phương thức nào
+    - phương thức thanh toán 
+    - thanh toán
+    - làm sao để thanh toán
+    - cách thức thanh toán
+    - thanh toán bằng cách nào
+    - ban ho tro thanh toan bang nhung phuong thuc nao
+    - thanh toan bang nhung phuong thuc nao
+    - phuong thuc thanh toan
+    - thanh toan
+    - lam sao de thanh toan
+    - cach thuc thanh toan
+    - thanh toan bang cach nao
+- intent: time_open_door
+  examples: |
+    - thời gian mở cửa của bạn
+    - khi nào mở cửa
+    - thời giao làm việc
+    - khi nào làm việc
+    - có làm việc cả ngày không
+    - thời gian mở cửa
+    - bạn hoạt động khi nào
+    - hoạt động đến bao giờ
+    - thời gian hoặt động
+    - lúc nào mở cửa hoạt động
+    - thoi gian mo cua cua ban
+    - khi nao mo cua
+    - thoi gian lam viec
+    - thoi gian hoat dong
+    - khi nao lam viec
+    - co lam viec ca ngay khong
+    - thoi gian mo cua
+    - ban hoat dong khi nao
+    - luc nao mo cua hoat dong
+- intent: support_KH
+  examples: |
+    - Tôi gặp vấn đề với đơn hàng của mình, làm thế nào để giải quyết?
+    - toi gap van de ve don hang lam the nao de giai quyet
+    - tôi gặp vấn đề về đơn hàng làm sao để giải quyết
+    - tôi muốn giải quyết vẫn đề về đơn hàng
+    - giải quyết đơn hàng gặp vấn đề
+    - đơn hàng của tôi có vấn đề
+    - đơn hàng của tôi cần giải quyết
+    - đơn hàng gặp vấn đề hãy giải quyết cho toi
+- intent: inventory
+  examples: |
+    - [trong kho](produce_name_inventory) còn những sản phẩm nào
+    - có những sản phẩm nào [trong kho](produce_name_inventory)
+    - cho tôi xem sản phẩm [tồn kho](produce_name_inventory)
+    - điều hòa còn bao nhiêu sản phẩm [trong kho](produce_name_inventory)
+    - những sản phảm [tồn kho](produce_name_inventory)
+    - [kho](produce_name_inventory)còn bao nhiêu sản phẩm
+    - sản phẩm hiện đang có ở [kho](produce_name_inventory) nào
+    - [tồn kho](produce_name_inventory)
+    - sản phẩm [tồn kho](produce_name_inventory)
